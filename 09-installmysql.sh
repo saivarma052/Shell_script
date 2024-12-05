@@ -1,0 +1,15 @@
+#!/bin/bash
+
+ID=$(id -u)
+echo $ID
+
+if [ $ID -ne 0 ]
+then
+    echo "ERROR:: Please run this script with root access"
+else
+    echo "you are root user"
+fi
+
+apt update
+
+apt install mysql-server -y
