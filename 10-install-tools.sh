@@ -12,8 +12,6 @@ else
     echo "you are root user"
 fi
 
-sudo su
-
 yum update 
 
 echo "****************Installing Python*********************"
