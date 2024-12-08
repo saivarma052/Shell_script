@@ -18,6 +18,6 @@ echo "****************Installing Python*********************"
 
 yum install python -y
 
-yum intall groovy 
+yum list available | grep groovy
 
 
