@@ -1,9 +1,9 @@
 #!/bin/bash
 
 ID=$(id -u)
-echo $ID
+echo "$ID"
 
-if [ $ID -ne 0 ]
+if [ "$ID" -ne 0 ]
 then
     echo "ERROR:: Please run this script with root access"
 
