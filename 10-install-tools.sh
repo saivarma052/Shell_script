@@ -7,11 +7,12 @@ if [ "$ID" -ne 0 ]
 then
     echo "ERROR:: Please run this script with root access"
 
-sudo su
 
 else
     echo "you are root user"
 fi
+
+sudo su
 
 yum update 
 
