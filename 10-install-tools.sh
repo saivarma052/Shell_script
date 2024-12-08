@@ -20,4 +20,6 @@ yum install python -y
 
 yum list available | grep groovy
 
+yum install groovy
+
 
