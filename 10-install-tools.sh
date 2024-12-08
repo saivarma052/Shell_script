@@ -16,8 +16,6 @@ echo "****************Installing Python*********************"
 
 yum install python -y
 
-yum install git -y
-
-dnf intall groovy 
+yum intall groovy 
 
 
