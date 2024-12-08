@@ -10,8 +10,14 @@ else
     echo "you are root user"
 fi
 
-apt update
+yum update 
 
-apt install python -y
+echo "****************Installing Python*********************"
 
-apt install mysql-server -y
+yum install python -y
+
+yum install git -y
+
+dnf intall groovy 
+
+
