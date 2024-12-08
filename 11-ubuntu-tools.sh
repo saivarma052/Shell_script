@@ -17,6 +17,16 @@ echo "*****************Installing Python***************"
 
 apt install python -y
 
+echo "##############Successfully installed Python####################"
+
+echo "******************Installing mysql-server**********************"
+
 apt install mysql-server -y
 
+echo "###################Successfully installed mysql-server###########"
+
+echo "*******************Installing Groovy**************************"
+
 apt install groovy -y
+
+echo "####################sucessfully Installed#####################"
