@@ -2,7 +2,7 @@
 
 mkdir test1 test2
 
-cd test1
+cd test1 || exit
 
 touch file1.txt file2.txt 
 
