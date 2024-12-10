@@ -10,8 +10,6 @@ else
     echo "you are root user"
 fi
 
-apt update
-
-apt install python -y
-
-apt install mysql-server -y
+sudo rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022wget http://dev.mysql.com/get/mysql57-community-release-el7-8.noarch.rpm
+sudo yum localinstall -y mysql57-community-release-el7-8.noarch.rpm
+sudo yum install -y mysql-community-server
