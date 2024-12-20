@@ -23,7 +23,6 @@ echo "***************Mysql Successfully installed*****************"
 
 git --version
 
-git clone https://github.com/saivarma052/Shell_script.git
 
 
 
