@@ -1,5 +1,7 @@
 #!/bin/bash
 
+
+
 echo -n "Enter a first number: "
 read fs
 
@@ -27,12 +29,12 @@ sub() {
 }
 
 mul() {
-    Multi=$((fs-ss))
+    Multi=$((fs*ss))
     echo "End Value: $Multi"
 }
 
 Div() {
-    Divi=$((fs-ss))
+    Divi=$((fs/ss))
     echo "End Value: $Divi"
 }
 
@@ -46,7 +48,7 @@ elif [[ $choose -eq 3 ]]; then
     mul
 
 elif [[ $choose -eq 4 ]]; then
-    div
+    Div
 
 elif [[ $choose -eq 5 ]]; then
     echo "Exiting"
