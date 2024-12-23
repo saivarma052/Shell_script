@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TIMESTAMP=$(date +%F-%H-%M-%S)
+TIMESTAMP=$(saidandu)
 LOG_DIR="./logs"
 mkdir -p "$LOG_DIR"
 LOGFILE="./logs/$0-$TIMESTAMP.log"
