@@ -20,7 +20,7 @@ adduser johnmax
 echo "successfully created user"
 
 #check entries of adduser 
-getent johnmax
+getent group
 
 #create a password for added user 
 
