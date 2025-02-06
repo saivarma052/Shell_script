@@ -54,3 +54,33 @@ if ["$?" -ne 0 ]; then
 else
     echo "SUCCESS:: Groups added successfully"
 fi
+
+adduser john 
+adduser max
+adduser sam
+adduser ross
+
+if ["$?" -ne 0 ]; then
+    echo "ERROR:: unable to add users"
+    exit 1
+else
+    echo "SUCCESS:: users added successfully"
+fi
+
+usermod -aG linuxadmin john
+usermod -aG devops john
+usermod -aG dev john
+usermod -aG infra john
+
+if ["$?" -ne 0 ]; then
+    echo "ERROR:: unble to add john as admin for groups"
+    exit 1
+else
+    echo "SUCCESS:: Successfully added john as groups admin"
+fi
+
+gpasswd -A john linuxadmin
+gpasswd -A john devops
+gpasswd -A john dev
+gpasswd -A john infra
+
