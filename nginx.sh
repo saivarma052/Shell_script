@@ -48,3 +48,9 @@ groupadd devops
 groupadd dev
 groupadd infra
 
+if ["$?" -ne 0 ]; then
+    echo "ERROR:: groups not added"
+    exit 1
+else
+    echo "SUCCESS:: Groups added successfully"
+fi
