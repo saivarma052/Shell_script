@@ -26,7 +26,7 @@ else
 fi
  
 # Install python
-apt install python -y
+apt install python3 -y
 if [ "$?" -ne 0 ]; then
     echo "ERROR:: Python installation failed"
     exit 1
