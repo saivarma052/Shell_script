@@ -13,18 +13,20 @@ if [ "$ID" -ne 0 ]; then
         exit 1
     fi
 else
-    echo "You are the root user. Proceeding with installations..."
+    echo "You are the root user. Proceeding with adding users..."
 fi
 
+USERNAME="saidandu"
+PASSWORD="password123"
 
-adduser saidandu
+sudo useradd -m -s /bin/bash "$USERNAME"
+
+echo "$USERNAME:$PASSWORD" | chpasswd
+
+passwd -e "$USERNAME"
+
+echo "User $USERNAME has been created with the given password."
 
 groupadd devops
 
 gpasswd -a saidandu devops
-
-passwd -e saidandu
-
-
-
-
