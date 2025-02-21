@@ -26,4 +26,6 @@ getent group
 
 passwd johnmax
 
+if [$ID  -ne 0]
+then 
 

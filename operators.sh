@@ -6,3 +6,4 @@ mkdir -p "$LOG_DIR"
 LOGFILE="./logs/$0-$TIMESTAMP.log"
 
 echo "Hello world"
+

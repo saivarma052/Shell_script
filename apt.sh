@@ -67,6 +67,50 @@ else
     echo "SUCCESS:: users added successfully"
 fi
 
+USERNAME1="john"
+PASSWORD="password123"
+
+sudo useradd -m -s /bin/bash "$USERNAME1"
+
+echo "$USERNAME1:$PASSWORD" | chpasswd
+
+passwd -e "$USERNAME1"
+
+echo "User $USERNAME1 has been created with the given password."
+
+USERNAME2="max"
+PASSWORD="password123"
+
+sudo useradd -m -s /bin/bash "$USERNAME2"
+
+echo "$USERNAME2:$PASSWORD" | chpasswd
+
+passwd -e "$USERNAME2"
+
+echo "User $USERNAME2 has been created with the given password."
+
+USERNAME3="sam"
+PASSWORD="password123"
+
+sudo useradd -m -s /bin/bash "$USERNAME3"
+
+echo "$USERNAME3:$PASSWORD" | chpasswd
+
+passwd -e "$USERNAME3"
+
+echo "User $USERNAME3 has been created with the given password."
+
+USERNAME4="ross"
+PASSWORD="password123"
+
+sudo useradd -m -s /bin/bash "$USERNAME4"
+
+echo "$USERNAME4:$PASSWORD" | chpasswd
+
+passwd -e "$USERNAME4"
+
+echo "User $USERNAME4 has been created with the given password."
+
 usermod -aG linuxadmin john
 usermod -aG devops john
 usermod -aG dev john
@@ -84,5 +128,5 @@ gpasswd -A john devops
 gpasswd -A john dev
 gpasswd -A john infra
 
-vim /etc/nginx/nginx.conf
+vim /etc/nginx/nginx.conf | 
 

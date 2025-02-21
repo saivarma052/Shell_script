@@ -32,4 +32,7 @@ if [ "$?" -ne 0 ]; then
     exit 1
 else
     echo "SUCCESS:: Python installation completed"
+
+
 fi
+
