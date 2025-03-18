@@ -128,5 +128,8 @@ gpasswd -A john devops
 gpasswd -A john dev
 gpasswd -A john infra
 
+######Adding max as devops admin
+
+
 vim /etc/nginx/nginx.conf | 
 
