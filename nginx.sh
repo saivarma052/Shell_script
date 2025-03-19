@@ -34,6 +34,17 @@ else
     echo "SUCCESS:: Python installation completed"
 fi
 
+# Install PIP files
+yum install python-pip -y
+if [ "$?" -ne 0 ]; then
+    echo "ERROR:: PIP installation failed"
+    exit 1
+else
+    echo "SUCCESS:: PIP installation completed"
+fi
+
+
+
 #Install nginx
 yum install nginx -y
 if ["$?" -ne 0 ]; then
