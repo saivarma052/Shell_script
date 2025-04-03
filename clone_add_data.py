@@ -22,52 +22,52 @@ urls = [
     'https://upstox.com/stocks/hdfc-life-ins-co-ltd-share-price/INE795G01014/',
     'https://upstox.com/stocks/sbi-life-insurance-co-ltd-share-price/INE123W01016/',
     'https://upstox.com/stocks/tata-consumer-product-ltd-share-price/INE192A01025/',
-    'https://upstox.com/stocks/apollo-hospitals-enter-l-share-price/INE437A01024/',
-    'https://upstox.com/stocks/britannia-industries-ltd-share-price/INE216A01030/',
-    'https://upstox.com/stocks/adani-enterprises-limited-share-price/INE423A01024/',
-    'https://upstox.com/stocks/hero-motocorp-limited-share-price/INE158A01026/',
-    'https://upstox.com/stocks/bharat-petroleum-corp-lt-share-price/INE029A01011/',
-    'https://upstox.com/stocks/hdfc-bank-ltd-share-price/INE040A01034/',
-    'https://upstox.com/stocks/icici-bank-ltd-share-price/INE090A01021/',
-    'https://upstox.com/stocks/reliance-industries-ltd-share-price/INE002A01018/',
-    'https://upstox.com/stocks/infosys-limited-share-price/INE009A01021/',
-    'https://upstox.com/stocks/bharti-airtel-limited-share-price/INE397D01024/',
-    'https://upstox.com/stocks/larsen-toubro-ltd-share-price/INE018A01030/',
-    'https://upstox.com/stocks/itc-ltd-share-price/INE154A01025/',
-    'https://upstox.com/stocks/tata-consultancy-serv-lt-share-price/INE467B01029/',
-    'https://upstox.com/stocks/axis-bank-limited-share-price/INE238A01034/',
-    'https://upstox.com/stocks/kotak-mahindra-bank-ltd-share-price/INE237A01028/',
-    'https://upstox.com/stocks/state-bank-of-india-share-price/INE062A01020/',
-    'https://upstox.com/stocks/mahindra-mahindra-ltd-share-price/INE101A01026/',
-    'https://upstox.com/stocks/hindustan-unilever-ltd-share-price/INE030A01027/',
-    'https://upstox.com/stocks/sun-pharmaceutical-ind-l-share-price/INE044A01036/',
-    'https://upstox.com/stocks/hcl-technologies-ltd-share-price/INE860A01027/',
-    'https://upstox.com/stocks/maruti-suzuki-india-ltd-share-price/INE585B01010/',
-    'https://upstox.com/stocks/ntpc-ltd-share-price/INE733E01010/',
-    'https://upstox.com/stocks/tata-motors-limited-share-price/INE155A01022/',
-    'https://upstox.com/stocks/titan-company-limited-share-price/INE280A01028/',
-    'https://upstox.com/stocks/ultratech-cement-limited-share-price/INE481G01011/',
-    'https://upstox.com/stocks/tata-steel-limited-share-price/INE081A01020/',
-    'https://upstox.com/stocks/power-grid-corp-ltd-share-price/INE752E01010/',
-    'https://upstox.com/stocks/trent-ltd-share-price/INE849A01020/',
-    'https://upstox.com/stocks/asian-paints-limited-share-price/INE021A01026/',
-    'https://upstox.com/stocks/tech-mahindra-limited-share-price/INE669C01036/',
-    'https://upstox.com/stocks/hindalco-industries-ltd-share-price/INE038A01020/',
-    'https://upstox.com/stocks/jsw-steel-limited-share-price/INE019A01038/',
-    'https://upstox.com/stocks/bharat-electronics-ltd-share-price/INE263A01024/',
-    'https://upstox.com/stocks/oil-and-natural-gas-corp-share-price/INE213A01029/',
-    'https://upstox.com/stocks/bajaj-auto-limited-share-price/INE917I01010/',
-    'https://upstox.com/stocks/shriram-finance-limited-share-price/INE721A01047/',
-    'https://upstox.com/stocks/grasim-industries-ltd-share-price/INE047A01021/',
-    'https://upstox.com/stocks/grasim-industries-ltd-share-price/INE047A01021/',
-    'https://upstox.com/stocks/coal-india-ltd-share-price/INE522F01014/',
-    'https://upstox.com/stocks/wipro-ltd-share-price/INE075A01022/',
-    'https://upstox.com/stocks/nestle-india-limited-share-price/INE239A01024/',
-    'https://upstox.com/stocks/adani-port-sez-ltd-share-price/INE742F01042/',
-    'https://upstox.com/stocks/cipla-ltd-share-price/INE059A01026/',
-    'https://upstox.com/stocks/dr-reddy-s-laboratories-share-price/INE089A01031/',
-    'https://upstox.com/stocks/indusind-bank-limited-share-price/INE095A01012/',
-    'https://upstox.com/stocks/eicher-motors-ltd-share-price/INE066A01021/',
+    # 'https://upstox.com/stocks/apollo-hospitals-enter-l-share-price/INE437A01024/',
+    # 'https://upstox.com/stocks/britannia-industries-ltd-share-price/INE216A01030/',
+    # 'https://upstox.com/stocks/adani-enterprises-limited-share-price/INE423A01024/',
+    # 'https://upstox.com/stocks/hero-motocorp-limited-share-price/INE158A01026/',
+    # 'https://upstox.com/stocks/bharat-petroleum-corp-lt-share-price/INE029A01011/',
+    # 'https://upstox.com/stocks/hdfc-bank-ltd-share-price/INE040A01034/',
+    # 'https://upstox.com/stocks/icici-bank-ltd-share-price/INE090A01021/',
+    # 'https://upstox.com/stocks/reliance-industries-ltd-share-price/INE002A01018/',
+    # 'https://upstox.com/stocks/infosys-limited-share-price/INE009A01021/',
+    # 'https://upstox.com/stocks/bharti-airtel-limited-share-price/INE397D01024/',
+    # 'https://upstox.com/stocks/larsen-toubro-ltd-share-price/INE018A01030/',
+    # 'https://upstox.com/stocks/itc-ltd-share-price/INE154A01025/',
+    # 'https://upstox.com/stocks/tata-consultancy-serv-lt-share-price/INE467B01029/',
+    # 'https://upstox.com/stocks/axis-bank-limited-share-price/INE238A01034/',
+    # 'https://upstox.com/stocks/kotak-mahindra-bank-ltd-share-price/INE237A01028/',
+    # 'https://upstox.com/stocks/state-bank-of-india-share-price/INE062A01020/',
+    # 'https://upstox.com/stocks/mahindra-mahindra-ltd-share-price/INE101A01026/',
+    # 'https://upstox.com/stocks/hindustan-unilever-ltd-share-price/INE030A01027/',
+    # 'https://upstox.com/stocks/sun-pharmaceutical-ind-l-share-price/INE044A01036/',
+    # 'https://upstox.com/stocks/hcl-technologies-ltd-share-price/INE860A01027/',
+    # 'https://upstox.com/stocks/maruti-suzuki-india-ltd-share-price/INE585B01010/',
+    # 'https://upstox.com/stocks/ntpc-ltd-share-price/INE733E01010/',
+    # 'https://upstox.com/stocks/tata-motors-limited-share-price/INE155A01022/',
+    # 'https://upstox.com/stocks/titan-company-limited-share-price/INE280A01028/',
+    # 'https://upstox.com/stocks/ultratech-cement-limited-share-price/INE481G01011/',
+    # 'https://upstox.com/stocks/tata-steel-limited-share-price/INE081A01020/',
+    # 'https://upstox.com/stocks/power-grid-corp-ltd-share-price/INE752E01010/',
+    # 'https://upstox.com/stocks/trent-ltd-share-price/INE849A01020/',
+    # 'https://upstox.com/stocks/asian-paints-limited-share-price/INE021A01026/',
+    # 'https://upstox.com/stocks/tech-mahindra-limited-share-price/INE669C01036/',
+    # 'https://upstox.com/stocks/hindalco-industries-ltd-share-price/INE038A01020/',
+    # 'https://upstox.com/stocks/jsw-steel-limited-share-price/INE019A01038/',
+    # 'https://upstox.com/stocks/bharat-electronics-ltd-share-price/INE263A01024/',
+    # 'https://upstox.com/stocks/oil-and-natural-gas-corp-share-price/INE213A01029/',
+    # 'https://upstox.com/stocks/bajaj-auto-limited-share-price/INE917I01010/',
+    # 'https://upstox.com/stocks/shriram-finance-limited-share-price/INE721A01047/',
+    # 'https://upstox.com/stocks/grasim-industries-ltd-share-price/INE047A01021/',
+    # 'https://upstox.com/stocks/grasim-industries-ltd-share-price/INE047A01021/',
+    # 'https://upstox.com/stocks/coal-india-ltd-share-price/INE522F01014/',
+    # 'https://upstox.com/stocks/wipro-ltd-share-price/INE075A01022/',
+    # 'https://upstox.com/stocks/nestle-india-limited-share-price/INE239A01024/',
+    # 'https://upstox.com/stocks/adani-port-sez-ltd-share-price/INE742F01042/',
+    # 'https://upstox.com/stocks/cipla-ltd-share-price/INE059A01026/',
+    # 'https://upstox.com/stocks/dr-reddy-s-laboratories-share-price/INE089A01031/',
+    # 'https://upstox.com/stocks/indusind-bank-limited-share-price/INE095A01012/',
+    # 'https://upstox.com/stocks/eicher-motors-ltd-share-price/INE066A01021/',
 ]
 
  
@@ -104,7 +104,11 @@ for url in urls:
 
         price = soup.find('span', {'class': 'text-[32px] font-semibold leading-[42px]'})
 
-        price = price.get_text(strip=True) if price else "N/A"
+        price = price.get_text(strip=True).replace('₹', '').replace(',', '') if price else "N/A"
+
+        # Convert price to float
+
+        price = pd.to_numeric(price, errors='coerce')
  
         # Extract change
 
@@ -128,18 +132,22 @@ for url in urls:
 
                 if value_div:
 
-                    open_value = value_div.text.strip()
+                    open_value = value_div.text.strip().replace('₹', '').replace(',', '')
 
                 break  # Stop searching once found
  
         print("Open:", open_value)
+
+        # Convert open value to float
+
+        open_value_f = pd.to_numeric(open_value, errors='coerce')
 
         # Extract "Close" dynamically
 
         td_elements = soup.find_all('td', {'class': 'flex w-auto items-center justify-between py-4 sm:w-[270px] sm:py-2.5 border-b border-gray-accent2'})
  
         close_value = "N/A"  # Default value
- 
+
         for td in td_elements:
 
             label_div = td.find('div', {'class': 'text-sm font-medium leading-5 text-gray-accent3'})
@@ -150,15 +158,19 @@ for url in urls:
 
                 if value_div:
 
-                    close_value = value_div.text.strip()
+                    close_value = value_div.text.strip().replace('₹', '').replace(',', '')
 
                 break  # Stop searching once found
  
         print("Close:", close_value)
+
+        # Convert close value to float
+
+        close_value_f = pd.to_numeric(close_value, errors='coerce')
  
         # Append data
 
-        data.append([now, company, price, change, open_value, close_value])
+        data.append([now, company, price, change, open_value_f, close_value_f])
  
         print(f"Fetched data for {company}")
  
@@ -173,6 +185,7 @@ for url in urls:
 # Save to DataFrame
 
 df = pd.DataFrame(data, columns=["Date", "Company", "Price", "Change", "Open", "Close"])
+# df[["Price", "Change", "Open", "Close"]] = df[["Price", "Change", "Open", "Close"]].replace('₹', '').replace(',', '', regex=True).astype(float) 
  
 # Save to Excel
 
